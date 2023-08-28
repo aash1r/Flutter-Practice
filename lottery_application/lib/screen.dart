@@ -15,7 +15,7 @@ class _HomeScreenState extends State<HomeScreen> {
     return Scaffold(
       appBar: AppBar(
         backgroundColor: Colors.teal,
-        title: const Text("Navigation Drawer"),
+        title: const Text("Navigation for todo"),
         centerTitle: true,
       ),
       drawer: const MyDrawer(),
